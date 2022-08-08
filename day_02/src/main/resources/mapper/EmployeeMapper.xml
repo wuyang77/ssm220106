@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.mapper.EmployeeMapper">
+    <select id="selectEmpById" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+        WHERE
+            id = #{empId}
+    </select>
+
+    <insert id="insertEmployee" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO
+            tbl_employee(last_name,email,salary)
+        VALUE
+            (#{lastName},#{email},#{salary})
+    </insert>
+
+    <delete id="deleteEmployee">
+        DELETE FROM
+            tbl_employee
+        WHERE
+            id = #{empId}
+    </delete>
+
+    <update id="updateEmployee">
+        UPDATE
+            tbl_employee
+        SET
+            last_name=#{lastName},
+            email=#{email},
+            salary=#{salary}
+        WHERE
+            id=#{id}
+    </update>
+    <select id="selectAllEmps" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+    </select>
+    <select id="selectCountEmps" resultType="long">
+        SELECT
+            COUNT(*)
+        FROM
+            tbl_employee
+    </select>
+
+    <select id="selectEmpByOpt" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+        WHERE
+            last_name = #{param1}
+        AND
+            salary = #{param2}
+    </select>
+    <select id="selectEmpByPojo" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+        WHERE
+            last_name = #{lastName}
+          AND
+            salary = #{salary}
+    </select>
+    <select id="selectEmpByNamed" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+        WHERE
+            last_name = #{endName}
+          AND
+            salary = #{salary}
+    </select>
+    <select id="selectEmpByMap" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary
+        FROM
+            tbl_employee
+        WHERE
+            last_name = #{lastName}
+          AND
+            salary = #{salary}
+    </select>
+</mapper>
