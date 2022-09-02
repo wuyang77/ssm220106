@@ -64,4 +64,59 @@
           AND
             e.`id` = #{empId}
     </select>
+
+    <resultMap id="empAndDeptByEmpIdAssociationStep" type="employee">
+        <id column="id" property="id"></id>
+        <result column="last_name" property="lastName"></result>
+        <result column="email" property="email"></result>
+        <result column="salary" property="salary"></result>
+        <association property="dept"
+                     select="com.atguigu.mybatis.mapper.DeptMapper.selectDeptByDeptId"
+                     column="dept_id"
+                     fetchType="eager"
+        >            <!-- fetchType关闭局部的延迟加载 -->
+        </association>
+
+    </resultMap>
+    <select id="selectEmpAndDeptByEmpIdAssociationStep" resultMap="empAndDeptByEmpIdAssociationStep">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary,
+            dept_id
+        FROM
+            tbl_employee
+        WHERE
+            id=#{empId}
+    </select>
+    <select id="selectEmpByDeptId" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary,
+            dept_id
+        FROM
+            tbl_employee
+        WHERE
+            dept_id=#{dId}
+    </select>
+
+    <select id="selectEmployeeByOpr" resultType="employee">
+        SELECT
+            id,
+            last_name,
+            email,
+            salary,
+            dept_id
+        FROM
+            tbl_employee
+        WHERE
+            id=#{id}
+        AND
+            last_name=#{lastName}
+        AND
+            email=#{email}
+    </select>
 </mapper>

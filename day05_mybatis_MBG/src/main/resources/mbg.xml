@@ -1,0 +1,37 @@
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+
+<generatorConfiguration>
+    <!--
+        id属性：设置一个唯一标识
+        targetRuntime属性值说明：
+            MyBatis3Simple:基本的增删改查
+            MyBatis3:带条件查询的增删改查【QBC风格（Query By Criteria）】
+
+            a)注意：如果使用的是MySQL8,在jdbcConnection标签中还需要添加以下标签
+            <property name="nullCatalogMeansCurrent" value="true"/>
+    -->
+    <context id="simple" targetRuntime="MyBatis3">
+    <!--设置连接数据库的相关信息-->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/db220106"
+                        userId="root"
+                        password="1234">
+        </jdbcConnection>
+
+        <!--设置javaBean【POJO】的生成策略-->
+        <javaModelGenerator targetPackage="com.atguigu.mybatis.pojo" targetProject="src/main/java"/>
+
+        <!--设置SQL映射文件的生成策略-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"></sqlMapGenerator>
+
+        <!--设置Mapper接口的生成策略-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.atguigu.mybatis.mapper" targetProject="src/main/java"/>
+
+        <!--逆向分析的表-->
+        <table tableName="tbl_employee" domainObjectName="Employee" />
+        <table tableName="tbl_dept" domainObjectName="Department"/>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,4 @@
+com\atguigu\mybatis\pojo\Employee.class
+com\atguigu\mybatis\pojo\Dept.class
+com\atguigu\mybatis\mapper\EmployeeMapper.class
+com\atguigu\mybatis\mapper\DeptMapper.class

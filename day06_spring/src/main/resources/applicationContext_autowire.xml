@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--将DeptDao装配到容器中-->
+    <bean id="deptDao" class="com.atguigu.mybatis.dao.impl.DeptDaoImpl"></bean>
+
+    <!--自动装配的方式-->
+<!--    <bean id="deptService" class="com.atguigu.mybatis.service.impl.DeptServiceImpl">-->
+<!--        <property name="deptDao" ref="deptDao"></property>-->
+<!--    </bean>-->
+    <!--自动装配-->
+    <!--byName对象中的属性名称与容器中的Bean的id一致就能自动装备成功-->
+    <!--byType对象中的属性类型与容器中的Bean的class进行匹配，如果<唯一>匹配则自动装备成功-->
+    <bean id="deptService"
+          class="com.atguigu.mybatis.service.impl.DeptServiceImpl"
+          autowire="byType"
+    ></bean>
+    <!--不建议使用byName,byClass,建议使用注解的方式自动装配-->
+</beans>

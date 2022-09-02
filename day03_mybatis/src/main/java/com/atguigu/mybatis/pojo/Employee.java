@@ -6,7 +6,7 @@ public class Employee {
     private String email;//员工邮箱
     private Double salary;//员工薪资
     private Dept dept; //员工所属的不猛信息
-
+    //一对一的关系：一个员工对应一个部门
     public Employee() {
     }
 

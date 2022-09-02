@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 加载外部属性文件-->
+    <properties resource="db.properties"></properties>
+    <settings>
+        <!-- 开启驼峰式命名自动映射-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--设置加载的数据是否按需加载-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings  >
+    <!--设置别名-->
+    <typeAliases>
+        <package name="com.atguigu.mybatis.pojo"/>
+    </typeAliases>
+    <!--添加分页的插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+    <!--设置数据库连接环境-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${db.driver}"/>
+                <property name="url" value="${db.url}"/>
+                <property name="username" value="${db.username}"/>
+                <property name="password" value="${db.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="mapper/EmployeeMapper.xml"/>
+        <mapper resource="mapper/DepartmentMapper.xml"/>
+    </mappers>
+</configuration>

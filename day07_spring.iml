@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Applicaton_Annotation" removed="false">
+          <file>file://$MODULE_DIR$/day07_spring/src/main/resources/applicaton_Annotation.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="ApplicatonContext" removed="false">
+          <file>file://$MODULE_DIR$/day07_spring/src/main/resources/applicatonContext.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

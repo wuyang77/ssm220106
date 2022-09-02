@@ -11,25 +11,38 @@
     <modules>
         <module>day02_mybatis</module>
         <module>day03_mybatis</module>
+        <module>day04_mybatis</module>
+        <module>day05_mybatis_MBG</module>
+        <module>day05_spring</module>
+        <module>day06_spring</module>
+        <module>day07_spring</module>
+        <module>day07_spring_beforeaop</module>
+        <module>day08_spring_aop</module>
     </modules>
+
     <dependencies>
+        <!--导入spring-context-->
         <dependency>
-            <groupId>org.mybatis</groupId>
-            <artifactId>mybatis</artifactId>
-            <version>3.5.9</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.3.22</version>
+        </dependency>
+        <!--Spring继承Junit4-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.22</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.30</version>
-        </dependency>
+
+        <!--导入junit4.12-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <properties>
