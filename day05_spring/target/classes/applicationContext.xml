@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--将对象装配到IOC容器中-->
+    <bean id="stuZhenzhong" class="com.atguigu.spring.pojo.Student">
+        <property name="studentId" value="101"></property>
+        <property name="stuName">
+            <value>Zhenzhong</value>
+        </property>
+    </bean>
+    <!--  <![CDATA[]]>定义特殊字符  -->
+    <bean id="wuyang" class="com.atguigu.spring.pojo.Student">
+        <property name="studentId" value="102"></property>
+        <property name="stuName">
+            <value><![CDATA[<<WUYANG>>]]></value>
+        </property>
+    </bean>
+    <bean id="wushiqing" class="com.atguigu.spring.pojo.Student">
+        <constructor-arg name="studentId" value="103"></constructor-arg>
+        <constructor-arg name="stuName" value="wuyshiqing"></constructor-arg>
+    </bean>
+    <bean id="stuXiaoxi"
+          class="com.atguigu.spring.pojo.Student"
+          p:studentId="104"
+          p:stuName="Xiaoxi"
+    >
+    </bean>
+
+</beans>
