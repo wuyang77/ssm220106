@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Bean的生命周期-->
+    <bean id="student" class="com.atguigu.mybatis.pojo.Student" init-method="initStudent" destroy-method="destroyStudent">
+        <property name="id" value="102"></property>
+        <property name="stuName" value="wuyang"></property>
+    </bean>
+
+    <!--装配后置处理器-->
+    <bean class="com.atguigu.mybatis.processor.MyPostProcessor"></bean>
+</beans>
