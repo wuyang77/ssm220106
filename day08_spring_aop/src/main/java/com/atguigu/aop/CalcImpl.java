@@ -4,9 +4,18 @@ import org.springframework.stereotype.Component;
 
 @Component("calc")
 public class CalcImpl implements Calc{
+    /**
+     * 在加减乘除计算之前
+     * 添加日志功能
+     * 添加验证功能
+     * @param a
+     * @param b
+     * @return
+     */
     @Override
     public int add(int a, int b) {
         int result = a+b;
+//        int i = 1/0;
         System.out.println("正在计算中。。。。");
         return result;
     }

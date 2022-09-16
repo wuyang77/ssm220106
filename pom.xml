@@ -18,6 +18,8 @@
         <module>day07_spring</module>
         <module>day07_spring_beforeaop</module>
         <module>day08_spring_aop</module>
+        <module>day08_spring_jdbcTemplate</module>
+        <module>day09_Spring</module>
     </modules>
 
     <dependencies>
