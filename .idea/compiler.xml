@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="day03_mybatis" />
-        <module name="day04_mybatis" />
         <module name="day07_spring_beforeaop" />
         <module name="day08_spring_aop" />
         <module name="day08_spring_jdbcTemplate" />
+        <module name="day09_springMVC" />
         <module name="day05_spring" />
-        <module name="day05_mybatis_MBG" />
         <module name="day09_Spring" />
+        <module name="day10_springMVC" />
         <module name="day07_spring" />
         <module name="day06_spring" />
         <module name="day02_mybatis" />
+        <module name="day03_mybatis" />
+        <module name="day04_mybatis" />
+        <module name="day05_mybatis_MBG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

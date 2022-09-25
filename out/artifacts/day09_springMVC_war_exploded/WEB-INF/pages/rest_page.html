@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:xmls="http://www.w3.org/1999/xhtml"
+      xmls:th="https://www.thymeleaf.org/"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>REST风格CRUD</title>
+</head>
+<body>
+  <h2>REST风格CRUD练习</h2>
+  <h3>增加员工</h3>
+  <form th:action="@{/emp}" method="POST">
+    <input type="submit" value="添加员工信息">
+  </form>
+  <h3>查询员工</h3>
+  <a th:href="@{/emp/1001}">通过员工id获取员工信息</a>
+</body>
+</html>

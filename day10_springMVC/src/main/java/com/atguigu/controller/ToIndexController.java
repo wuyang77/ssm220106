@@ -13,4 +13,10 @@ public class ToIndexController {
     public String toRestPage(){
         return "rest_page";
     }
+    @RequestMapping("/toRestDataPage")
+    public String toRestDataPage(){
+        return "toRequestDataPage";
+    }
+
+
 }
