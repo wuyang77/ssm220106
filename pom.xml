@@ -18,6 +18,11 @@
         <module>day07_spring</module>
         <module>day07_spring_beforeaop</module>
         <module>day08_spring_aop</module>
+        <module>day08_spring_jdbcTemplate</module>
+        <module>day09_Spring</module>
+        <module>day09_springMVC</module>
+        <module>day10_springMVC</module>
+        <module>day11_springMVC_RESTCRUD</module>
     </modules>
 
     <dependencies>
@@ -25,13 +30,13 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.3.22</version>
+            <version>5.3.23</version>
         </dependency>
         <!--Spring继承Junit4-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>5.3.22</version>
+            <version>5.3.23</version>
             <scope>test</scope>
         </dependency>
 

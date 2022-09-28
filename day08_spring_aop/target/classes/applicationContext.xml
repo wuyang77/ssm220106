@@ -13,4 +13,25 @@
     <context:component-scan base-package="com.atguigu.aop"></context:component-scan>
     <!--开启AspectJ注解支持-->
     <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+    <!--装配CalcImpl到IOC容器中-->
+    <bean id="calc" class="com.atguigu.aop.CalcImpl"></bean>
+    <!--装配切面类到IOC容器中-->
+    <bean id="myLogging" class="com.atguigu.aop.MyLogging"></bean>
+    <bean id="myValidate" class="com.atguigu.aop.MyValidate"></bean>
+    <!--基于XML方式配置AOP-->
+    <aop:config>
+        <!--配置切入点表达式-->
+        <aop:pointcut id="myPointCut" expression="execution(* *.*(..))"/>
+        <!--配置通知-->
+        <aop:aspect ref="myLogging">
+            <aop:before method="beforeMethod" pointcut-ref="myPointCut"></aop:before>
+            <aop:after-returning method="afterReturning" pointcut-ref="myPointCut" returning="rs"></aop:after-returning>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="myPointCut" throwing="ex"></aop:after-throwing>
+            <aop:after method="afterMethod" pointcut-ref="myPointCut"></aop:after>
+            <aop:around method="aroundMethod" pointcut-ref="myPointCut"></aop:around>
+        </aop:aspect>
+    </aop:config>
+
+
+
 </beans>

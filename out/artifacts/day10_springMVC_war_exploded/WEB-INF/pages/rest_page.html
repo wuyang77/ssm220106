@@ -9,11 +9,21 @@
 </head>
 <body>
   <h2>REST风格CRUD练习</h2>
-  <h3>增加员工</h3>
-  <form th:action="@{/emp}" method="POST">
-    <input type="submit" value="添加员工信息">
+  <h3>增加员工信息</h3>
+      <form th:action="@{/emp}" method="POST">
+        <input type="submit" value="添加员工信息">
+      </form>
+  <h3>查询员工信息</h3>
+    <a th:href="@{/emp/1001}">通过员工id获取员工信息</a>
+  <h3>修改员工信息-PUT方式提交</h3>
+     <form th:action="@{/emp}" method="POST">
+         <input type="hidden" name="_method" value="PUT">
+         <input type="submit" value="修改员工信息">
+     </form>
+  <h3>删除员工信息-DELETE方式提交</h3>
+  <form th:action="@{/emp/1001}" method="POST">
+      <input type="hidden" name="_method" value="DELETE">
+      <input type="submit" value="删除员工信息">
   </form>
-  <h3>查询员工</h3>
-  <a th:href="@{/emp/1001}">通过员工id获取员工信息</a>
 </body>
 </html>
