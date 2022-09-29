@@ -34,4 +34,9 @@ public class ResponseDataController {
     session.setAttribute("stuName","Shiqing Wu");
     return "response_success";
   }
+  @RequestMapping("/testRedirect")
+  public String testRedirect(HttpSession session){
+    System.out.println("==>测试重定向...");
+    return "redirect:/redirect_success.html";
+  }
 }
