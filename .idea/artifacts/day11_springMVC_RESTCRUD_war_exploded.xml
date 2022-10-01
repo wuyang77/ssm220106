@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" build-on-make="true" name="day09_springMVC:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/day09_springMVC_war_exploded</output-path>
+  <artifact type="exploded-war" name="day11_springMVC_RESTCRUD:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day11_springMVC_RESTCRUD_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="day09_springMVC" />
+          <element id="module-output" name="day11_springMVC_RESTCRUD" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.23" />
@@ -22,7 +22,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.23" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="day09_springMVC/web/Web" />
+      <element id="javaee-facet-resources" facet="day11_springMVC_RESTCRUD/web/Web" />
     </root>
   </artifact>
 </component>

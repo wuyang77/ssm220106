@@ -20,7 +20,7 @@
         <module name="day03_mybatis" />
         <module name="day04_mybatis" />
         <module name="day05_mybatis_MBG" />
-        <module name="day05_mybatis" />
+        <module name="day11_springMVC_RESTCRUD" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
