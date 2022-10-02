@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--将DeptDao装配到容器中-->
-    <bean id="deptDao" class="com.atguigu.mybatis.dao.impl.DeptImpl"></bean>
+    <bean id="deptDao" class="com.atguigu.mybatis.dao.impl.DeptDaoImpl"></bean>
 
     <!--自动装配的方式-->
 <!--    <bean id="deptService" class="com.atguigu.mybatis.service.impl.DeptServiceImpl">-->
@@ -17,4 +17,5 @@
           class="com.atguigu.mybatis.service.impl.DeptServiceImpl"
           autowire="byType"
     ></bean>
+    <!--不建议使用byName,byClass,建议使用注解的方式自动装配-->
 </beans>

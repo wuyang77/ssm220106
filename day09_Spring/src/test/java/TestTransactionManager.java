@@ -36,7 +36,7 @@ public class TestTransactionManager {
         List<String> ids = new ArrayList<>();
         ids.add("1001");
         ids.add("1002");
-        cashierService.checkOut("chenlong",ids);
+        cashierService.checkout("chenlong",ids);
     }
 
 
