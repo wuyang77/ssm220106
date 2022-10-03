@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="day10_springMVC:war exploded" />
+      <artifact name="day12_springMVC:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07ed3c50-9e04-4bb6-8f94-8b16a3b05e6c" name="Changes" comment="123" />
+    <list default="true" id="07ed3c50-9e04-4bb6-8f94-8b16a3b05e6c" name="Changes" comment="123">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day09_springMVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/day12_springMVC_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/controller/MessageConvertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/messageConverter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11_springMVC_RESTCRUD/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day11_springMVC_RESTCRUD/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +37,8 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,7 +102,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "E:/自己的项目练习文件/ssm220106/day10_springMVC/src/main/webapp",
+    "last_opened_file_path": "E:/自己的项目练习文件/ssm220106/day12_springMVC/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +110,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "yiiguxing.plugin.translate",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "565f4e11f044569e6d7bdf7ae68ba05e"
   }
 }]]></component>
@@ -103,6 +120,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\自己的项目练习文件\ssm220106\day09_springMVC" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,9 +181,9 @@
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="day10_springMVC:war exploded">
+        <artifact name="day12_springMVC:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/day10_springMVC_war_exploded" />
+            <option name="CONTEXT_PATH" value="/day12_springMVC_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -241,7 +261,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="day10_springMVC:war exploded" />
+          <artifact name="day12_springMVC:war exploded" />
         </option>
       </method>
     </configuration>
@@ -291,7 +311,7 @@
       <workItem from="1664354562671" duration="1996000" />
       <workItem from="1664551603866" duration="1803000" />
       <workItem from="1664591678029" duration="5851000" />
-      <workItem from="1664762597161" duration="308000" />
+      <workItem from="1664762597161" duration="7840000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'ssm_220106/master'">
       <created>1664355821456</created>
@@ -307,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664762843555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="123">
+      <created>1664762914624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664762914624</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

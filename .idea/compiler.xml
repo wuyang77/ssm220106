@@ -9,6 +9,7 @@
         <module name="day09_spring" />
         <module name="day07_spring_beforeaop" />
         <module name="day08_spring_aop" />
+        <module name="day12_springMVC" />
         <module name="day08_spring_jdbcTemplate" />
         <module name="day09_springMVC" />
         <module name="day05_spring" />
