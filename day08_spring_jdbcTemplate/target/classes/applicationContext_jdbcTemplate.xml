@@ -21,7 +21,6 @@
     <bean name="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
-
 </beans>
 
 

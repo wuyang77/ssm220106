@@ -3,38 +3,38 @@ package com.atguigu.pojo;
 import java.util.List;
 
 public class Department {
-    private Integer deptId;
-    private String deptName;
+  private Integer id;
+  private String deptName;
 
-    public Department() {
-    }
+  public Department() {
+  }
 
-    public Department(Integer deptId, String deptName) {
-        this.deptId = deptId;
-        this.deptName = deptName;
-    }
+  public Department(Integer id, String deptName) {
+    this.id = id;
+    this.deptName = deptName;
+  }
 
-    public Integer getDeptId() {
-        return deptId;
-    }
+  public Integer getId() {
+    return id;
+  }
 
-    public void setDeptId(Integer deptId) {
-        this.deptId = deptId;
-    }
+  public void setId(Integer id) {
+    this.id = id;
+  }
 
-    public String getDeptName() {
-        return deptName;
-    }
+  public String getDeptName() {
+    return deptName;
+  }
 
-    public void setDeptName(String deptName) {
-        this.deptName = deptName;
-    }
+  public void setDeptName(String deptName) {
+    this.deptName = deptName;
+  }
 
-    @Override
-    public String toString() {
-        return "Department{" +
-                "deptId=" + deptId +
-                ", deptName='" + deptName + '\'' +
-                '}';
-    }
+  @Override
+  public String toString() {
+    return "Department{" +
+        "id=" + id +
+        ", deptName='" + deptName + '\'' +
+        '}';
+  }
 }

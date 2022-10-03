@@ -5,15 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ToIndexController {
-    @RequestMapping("/")
+//    @RequestMapping("/")
     public String toIndexPage(){
         return "index";
     }
-    @RequestMapping("/toRestPage")
+//    @RequestMapping("/toRestPage")
     public String toRestPage(){
         return "rest_page";
     }
-    @RequestMapping("/toRestDataPage")
+//    @RequestMapping("/toRestDataPage")
     public String toRestDataPage(){
         return "toRequestDataPage";
     }
