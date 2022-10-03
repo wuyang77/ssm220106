@@ -24,6 +24,7 @@
 
     <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
     <mvc:view-controller path="/messageConverter" view-name="messageConverter"></mvc:view-controller>
+    <mvc:view-controller path="/tofileDownloadPage" view-name="fileDownloadPage"></mvc:view-controller>
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
     <mvc:annotation-driven></mvc:annotation-driven>
 

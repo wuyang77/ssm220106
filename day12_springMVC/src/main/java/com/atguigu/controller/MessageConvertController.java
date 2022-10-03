@@ -43,7 +43,6 @@ public class MessageConvertController {
         System.out.println("=====>处理Json");
         //将Employee对象装换为Json格式
         Employee employee = new Employee(1001,"wuyang","2388958622@qq.com",1);
-
         return employee;
     }
 
