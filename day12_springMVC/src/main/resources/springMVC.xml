@@ -22,10 +22,18 @@
         </property>
     </bean>
 
+    <!--装配拦截器-->
+    <mvc:interceptors>
+<!--        <bean class="com.atguigu.interceptor.MyInterCeptor"></bean>-->
+        <ref bean="myInterCeptor"></ref>
+    </mvc:interceptors>
+    <!--装配首页控制器-->
     <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
     <mvc:view-controller path="/messageConverter" view-name="messageConverter"></mvc:view-controller>
     <mvc:view-controller path="/tofileDownloadPage" view-name="fileDownloadPage"></mvc:view-controller>
+    <!--解决静态资源的加载问题-->
     <mvc:default-servlet-handler></mvc:default-servlet-handler>
+    <!--解决控制器和静态资源加载后续【导致Controller无法正常使用】问题-->
     <mvc:annotation-driven></mvc:annotation-driven>
 
 </beans>
