@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e64301c-bda9-4a1a-b64d-575bb1e9fafd" name="Changes" comment="" />
+    <list default="true" id="3e64301c-bda9-4a1a-b64d-575bb1e9fafd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,9 @@
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="master/switch1" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="gitee_ssm220106/switch1" />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -304,7 +309,7 @@
       <workItem from="1665412185753" duration="22000" />
       <workItem from="1665481855505" duration="2573000" />
       <workItem from="1665486241961" duration="595000" />
-      <workItem from="1665487170437" duration="3054000" />
+      <workItem from="1665487170437" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'ssm_220106/master'">
       <created>1664355821456</created>
@@ -362,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665490029601</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="实现文件上传功能，以及拦截器功能的完善">
+      <created>1665490286215</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665490286215</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
