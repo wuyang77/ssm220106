@@ -272,11 +272,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="JUnit.TestTransationManager.testNoTran" />
         <item itemvalue="JUnit.TestTransationManager.testTransanalAttr" />
+        <item itemvalue="JUnit.TestTransationManager.testNoTran" />
         <item itemvalue="JUnit.TestTransationManager" />
         <item itemvalue="JUnit.TestAop.testAop" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
     </recent_temporary>
   </component>
