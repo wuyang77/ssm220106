@@ -22,7 +22,7 @@
         <module>day09_Spring</module>
         <module>day09_springMVC</module>
         <module>day10_springMVC</module>
-      <module>day11_springMVC_RESTCRUD</module>
+        <module>day11_springMVC_RESTCRUD</module>
         <module>day12_springMVC</module>
     </modules>
 
@@ -41,7 +41,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!--导入junit4.12-->
+<!--        导入junit4.12-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
