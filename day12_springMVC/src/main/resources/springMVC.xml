@@ -26,11 +26,34 @@
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
         <property name="defaultEncoding" value="UTF-8"></property>
     </bean>
+
     <!--装配拦截器-->
     <mvc:interceptors>
+        <!--全局配置-->
         <!--<bean class="com.atguigu.interceptor.MyInterCeptor"></bean>-->
-        <ref bean="myInterCeptor"></ref>
+        <!--    <ref bean="myInterCeptor"></ref>-->
+        <!--局部配置-->
+        <mvc:interceptor>
+            <mvc:mapping path="/testJson"/>
+            <ref bean="myInterCeptor"></ref>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/testJson"/>
+            <ref bean="myInterCeptor2"></ref>
+        </mvc:interceptor>
     </mvc:interceptors>
+
+    <!--装配异常处理器-->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.ArithmeticException">error_arith</prop>
+                <prop key="java.lang.NullPointerException">error_null</prop>
+            </props>
+        </property>
+        <property name="exceptionAttribute" value="ex"></property>
+    </bean>
+
     <!--装配首页控制器-->
     <mvc:view-controller path="/" view-name="index"></mvc:view-controller>
     <mvc:view-controller path="/messageConverter" view-name="messageConverter"></mvc:view-controller>

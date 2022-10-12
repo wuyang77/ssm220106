@@ -6,6 +6,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
@@ -37,10 +38,13 @@ public class MessageConvertController {
         return "hello";
     }
 
-    @RequestMapping("/testJson")
+    @RequestMapping(value = "/testJson")
     @ResponseBody
     public Employee testJson(){
         System.out.println("=====>处理Json");
+//        int i = 1/0;
+        String s = null;
+        s.length();
         //将Employee对象装换为Json格式
         Employee employee = new Employee(1001,"wuyang","2388958622@qq.com",1);
         return employee;
