@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e64301c-bda9-4a1a-b64d-575bb1e9fafd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/utils/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/utils/PageUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/emplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/emplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/utils/PageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/utils/PageUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/classes/com/atguigu/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/classes/com/atguigu/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/classes/com/atguigu/utils/PageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/classes/com/atguigu/utils/PageUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/pages/emplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/pages/emplist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day13_ssm_war_exploded/WEB-INF/pages/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3e64301c-bda9-4a1a-b64d-575bb1e9fafd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -347,7 +335,7 @@
       <workItem from="1666597926006" duration="349000" />
       <workItem from="1666598453181" duration="5468000" />
       <workItem from="1666606004003" duration="693000" />
-      <workItem from="1666606705247" duration="655000" />
+      <workItem from="1666606705247" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'ssm_220106/master'">
       <created>1664355821456</created>
@@ -447,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666598796191</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="分页插件完善，ssm整合结束">
+      <created>1666607403664</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666607403664</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +471,8 @@
     <MESSAGE value="实现文件上传功能，以及拦截器功能的完善" />
     <MESSAGE value="异常处理和SpringMVC工作原理" />
     <MESSAGE value="SSM整合" />
-    <option name="LAST_COMMIT_MESSAGE" value="SSM整合" />
+    <MESSAGE value="分页插件完善，ssm整合结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="分页插件完善，ssm整合结束" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
