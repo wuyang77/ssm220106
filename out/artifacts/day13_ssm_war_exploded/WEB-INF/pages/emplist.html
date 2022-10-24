@@ -14,13 +14,15 @@
         <th>Email</th>
         <th>Salary</th>
       </tr>
-      <tr th:each="emp:${emps}">
+      <tr align="center" th:each="emp:${emps}">
         <td th:text="${emp.id}"></td>
         <td th:text="${emp.lastName}"></td>
         <td th:text="${emp.email}"></td>
         <td th:text="${emp.salary}"></td>
       </tr>
     </table>
+    <span th:utext="${pageRs}"></span><br>
+    当前在第<span th:utext="${pNo}"></span>页
   </div>
 </body>
 </html>
