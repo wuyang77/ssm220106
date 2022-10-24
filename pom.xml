@@ -24,6 +24,7 @@
         <module>day10_springMVC</module>
         <module>day11_springMVC_RESTCRUD</module>
         <module>day12_springMVC</module>
+        <module>day13_ssm</module>
     </modules>
 
     <dependencies>

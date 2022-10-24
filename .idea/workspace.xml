@@ -10,16 +10,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e64301c-bda9-4a1a-b64d-575bb1e9fafd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/interceptor/MyInterCeptor2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/error_arith.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/error_null.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/controller/TestSpringMVCWorking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/java/com/atguigu/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/emplist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/pojo/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/com/atguigu/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/target/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day13_ssm/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_10_11_20_40_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022_10_11_20_40__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/controller/MessageConvertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/controller/MessageConvertController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_springMVC/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day12_springMVC/src/main/resources/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12_springMVC/target/classes/com/atguigu/controller/MessageConvertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/day12_springMVC/target/classes/com/atguigu/controller/MessageConvertController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day12_springMVC/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day12_springMVC/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/day12_springMVC/target/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/classes/com/atguigu/controller/MessageConvertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/classes/com/atguigu/controller/MessageConvertController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/classes/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day12_springMVC_war_exploded/WEB-INF/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +60,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -81,6 +111,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -99,28 +130,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/yanglegeyang&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.28735632&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.gitee.ui.GiteeSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b14871089e0838fe9d958e8b6118c7b8&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/TestProject/ssm220106/day13_ssm/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.28735632",
+    "settings.editor.selected.configurable": "yiiguxing.plugin.translate",
+    "spring.configuration.checksum": "b14871089e0838fe9d958e8b6118c7b8"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\TestProject\ssm220106\day12_springMVC\src\main\webapp\WEB-INF\download" />
@@ -189,9 +220,9 @@
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="day12_springMVC:war exploded">
+        <artifact name="day13_ssm:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/day12_springMVC_war_exploded" />
+            <option name="CONTEXT_PATH" value="/day13_ssm_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -269,7 +300,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="day12_springMVC:war exploded" />
+          <artifact name="day13_ssm:war exploded" />
         </option>
       </method>
     </configuration>
@@ -331,7 +362,19 @@
       <workItem from="1665495701211" duration="471000" />
       <workItem from="1665498052130" duration="13000" />
       <workItem from="1665570558384" duration="5561000" />
-      <workItem from="1665576515707" duration="3531000" />
+      <workItem from="1665576515707" duration="3626000" />
+      <workItem from="1665828906687" duration="1177000" />
+      <workItem from="1665907901177" duration="8387000" />
+      <workItem from="1666089693857" duration="597000" />
+      <workItem from="1666179166491" duration="29000" />
+      <workItem from="1666179203042" duration="963000" />
+      <workItem from="1666180253780" duration="1027000" />
+      <workItem from="1666181582575" duration="1365000" />
+      <workItem from="1666182996201" duration="123000" />
+      <workItem from="1666597763881" duration="100000" />
+      <workItem from="1666597869570" duration="51000" />
+      <workItem from="1666597926006" duration="349000" />
+      <workItem from="1666598453181" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'ssm_220106/master'">
       <created>1664355821456</created>
@@ -417,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665496932519</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="异常处理和SpringMVC工作原理">
+      <created>1665582235581</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665582235581</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,40 +494,41 @@
     <MESSAGE value="123" />
     <MESSAGE value="实现文件下载功能" />
     <MESSAGE value="实现文件上传功能，以及拦截器功能的完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现文件上传功能，以及拦截器功能的完善" />
+    <MESSAGE value="异常处理和SpringMVC工作原理" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常处理和SpringMVC工作原理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1070</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1065</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1087</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1166</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1148</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/handler/SimpleMappingExceptionResolver.java</url>
           <line>188</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/day12_springMVC/src/main/java/com/atguigu/controller/TestSpringMVCWorking.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1070</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1087</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1148</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../localRepository/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1166</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

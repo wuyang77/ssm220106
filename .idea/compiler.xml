@@ -20,6 +20,7 @@
         <module name="day02_mybatis" />
         <module name="day03_mybatis" />
         <module name="day04_mybatis" />
+        <module name="day13_ssm" />
         <module name="day05_mybatis_MBG" />
         <module name="day11_springMVC_RESTCRUD" />
       </profile>

@@ -41,6 +41,10 @@
             <mvc:mapping path="/testJson"/>
             <ref bean="myInterCeptor2"></ref>
         </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/testSpringMVCWorking"/>
+            <ref bean="myInterCeptor"></ref>
+        </mvc:interceptor>
     </mvc:interceptors>
 
     <!--装配异常处理器-->
